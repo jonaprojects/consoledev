@@ -1,0 +1,11 @@
+README.md
+setup.py
+consoledev/__init__.py
+consoledev/__main__.py
+consoledev/consolekit.py
+consoledev.egg-info/PKG-INFO
+consoledev.egg-info/SOURCES.txt
+consoledev.egg-info/dependency_links.txt
+consoledev.egg-info/entry_points.txt
+consoledev.egg-info/requires.txt
+consoledev.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+consoledev = __main__:main
+
