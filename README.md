@@ -1,4 +1,4 @@
-# consoledev
+#consoledev
 <h1>Documentation: Version 1.0.0</h1>
 <h3>Installation</h3>
 You can install the module from pypi's website, or 
@@ -18,4 +18,20 @@ First, you need to import consolekit:
 header = Text("BASIC PYTHON CONSOLE V1.0 ", COLORS.WARNING)
 python_console = JConsole(header=header, starting_message="hello and welcome !", ending_message=" goodbye !")
 python_console.run()
+</pre>
+You can also define your own analysis function for the console, 
+as long as it gets a string as a parameter and returns a string.
+<pre>
+def echo(word: str):
+    return word
+
+
+def main():
+    header = Text("ECHO CONSOLE", COLORS.OKCYAN)
+    echo_console = JConsole(header=header,starting_message=Text("welcome!",COLORS.CYELLOW),analysis_function=echo)
+    echo_console.run()
+
+
+if __name__ == '__main__':
+    main()
 </pre>
