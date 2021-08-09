@@ -24,10 +24,12 @@ as long as it gets a string as a parameter and returns a string.
 <pre  lang="python">
 def echo(word: str):
     return word
+    <br/>
 def main():
     header = Text("ECHO CONSOLE", COLORS.OKCYAN)
     echo_console = JConsole(header=header,starting_message=Text("welcome!",COLORS.CYELLOW),analysis_function=echo)
     echo_console.run()
+    <br/>
 if __name__ == '__main__':
     main()
 </pre>
