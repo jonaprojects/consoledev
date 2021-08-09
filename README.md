@@ -26,9 +26,9 @@ def echo(word: str):
     return word
 
 def main():
-    header = Text("ECHO CONSOLE", COLORS.OKCYAN)
-    echo_console = JConsole(header=header,starting_message=Text("welcome!",COLORS.CYELLOW),analysis_function=echo)
-    echo_console.run()
+        header = Text("ECHO CONSOLE", COLORS.OKCYAN)
+        echo_console = JConsole(header=header,starting_message=Text("welcome!",COLORS.CYELLOW),analysis_function=echo)
+        echo_console.run()
 
 if __name__ == '__main__':
     main()
