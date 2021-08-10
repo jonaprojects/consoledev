@@ -1,5 +1,5 @@
 #consoledev
-<h1>Documentation: Version 1.0.0</h1>
+<h1>Quick Introduction: Version 1.0.0</h1>
 <h3>Installation</h3>
 You can install the module from pypi's website, or 
 directly via the pip manager: <br/>
