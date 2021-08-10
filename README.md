@@ -14,7 +14,7 @@ with a messy project, then this module is for you. <br/>
 First, you need to import consolekit:
 <code> from consoledev import consolekit</code>
 <h5>Example 1 - Basic Python Console:</h5>
-<pre>
+<pre lang="python">
 header = Text("BASIC PYTHON CONSOLE V1.0 ", COLORS.WARNING)
 python_console = JConsole(header=header, starting_message="hello and welcome !", ending_message=" goodbye !")
 python_console.run()
