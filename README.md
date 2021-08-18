@@ -11,7 +11,7 @@ spending the extra time to do this the right way, and eventually end up
 with a messy project, then this module is for you. <br/>
 
 <h3>Examples of usages:</h3>
-First, you need to import consolekit:
+First, you need to import the needed classes:
 <code> from consolekit import Text,TextArray,COLORS,JConsole</code>
 <h5>Example 1 - Basic Python Console:</h5>
 <pre lang="python">
