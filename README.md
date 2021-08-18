@@ -12,7 +12,7 @@ with a messy project, then this module is for you. <br/>
 
 <h3>Examples of usages:</h3>
 First, you need to import consolekit:
-<code> from consoledev import consolekit</code>
+<code> from consolekit import Text,TextArray,COLORS,JConsole</code>
 <h5>Example 1 - Basic Python Console:</h5>
 <pre lang="python">
 header = Text("BASIC PYTHON CONSOLE V1.0 ", COLORS.WARNING)
