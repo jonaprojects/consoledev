@@ -12,21 +12,25 @@ with a messy project, then this module is for you. <br/>
 
 <h3>Examples of usages:</h3>
 First, you need to import the needed classes:
-<pre lang="python">
-    from consoledev.consolekit import Text, TextArray, JConsole, COLORS
-</pre>
+<pre lang="python">from consoledev.consolekit import Text, TextArray, JConsole, COLORS</pre>
 <h5>Example 1 - Basic Python Console:</h5>
 <p>You can create a new Console application with the <code>JConsole</code> class.
 </p>
 <h2>Props</h2>
-header - A 
+<b>analysis_function</b> - a function that gets a string and returns a string. This function processes the input from the user in each line. As default, it will regard input as Python code and process it accordingly.
+<b>header</b> - A Text object for the title that appears when starting the console app.
+<b>starting_message</b> - A short custom message that appears in the beginning. 
+<b>ending_message</b> - A short custom message that appears in the beginning. 
+<b>Stop commands</b> - A list of strings that are commands for quitting the console application.
+
 <pre lang="python">
 header = Text("BASIC PYTHON CONSOLE V1.0 ", COLORS.WARNING)
 python_console = JConsole(header=header, starting_message="hello and welcome !", ending_message=" goodbye !")
 python_console.run()
 </pre>
-You can also define your own analysis function for the console, 
-as long as it gets a string as a parameter and returns a string.
+<img src="defaultConsole.png" />
+This was the default behavior but you can also define your own analysis function for the console, 
+as long as it gets a string as a parameter and returns a string. For instance, let's define a simple echo function:
 <pre  lang="python">
 def echo(word: str):
     return word
