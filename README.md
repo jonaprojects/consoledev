@@ -18,9 +18,12 @@ First, you need to import the needed classes:
 </p>
 <h2>Props</h2>
 <b>analysis_function</b> - a function that gets a string and returns a string. This function processes the input from the user in each line. As default, it will regard input as Python code and process it accordingly.
+
 <b>header</b> - A Text object for the title that appears when starting the console app.
-<b>starting_message</b> - A short custom message that appears in the beginning. 
-<b>ending_message</b> - A short custom message that appears in the beginning. 
+<b>starting_message</b> - A short custom message that appears in the beginning.( of type <code>str</code> or <code>Text</code> )
+
+<b>ending_message</b> - A short custom message that appears in the beginning ( of type <code>str</code> or <code>Text</code>
+
 <b>Stop commands</b> - A list of strings that are commands for quitting the console application.
 
 <pre lang="python">
@@ -43,3 +46,5 @@ def main():
 if __name__ == '__main__':
     main()
 </pre>
+
+<img src="echoConsole.png" />
