@@ -12,8 +12,14 @@ with a messy project, then this module is for you. <br/>
 
 <h3>Examples of usages:</h3>
 First, you need to import the needed classes:
-<code> from consolekit import Text,TextArray,COLORS,JConsole</code>
+<pre lang="python">
+    from consoledev.consolekit import Text, TextArray, JConsole, COLORS
+</pre>
 <h5>Example 1 - Basic Python Console:</h5>
+<p>You can create a new Console application with the <code>JConsole</code> class.
+</p>
+<h2>Props</h2>
+header - A 
 <pre lang="python">
 header = Text("BASIC PYTHON CONSOLE V1.0 ", COLORS.WARNING)
 python_console = JConsole(header=header, starting_message="hello and welcome !", ending_message=" goodbye !")
