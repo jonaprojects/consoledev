@@ -110,4 +110,4 @@ There is a variety of colors that are supported <code>COLORS</code> class </p>
     CBEIGEBG2 = '\33[106m'
     CWHITEBG2 = '\33[107m'
 
-</pre>pre>
+</pre>
